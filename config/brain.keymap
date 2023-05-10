@@ -40,6 +40,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp LEFT_ALT>, <&kp LGUI>;
+        };
     };
     cond_layers {
         compatible = "zmk,conditional-layers";
@@ -97,10 +104,10 @@
 
         default_layer {
             bindings = <
-            &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J                 &kp L         &kp U         &kp Y       &kp DEL
-     &kp N1  &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M                 &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O &kp N6
-     &kp N2  &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K                 &kp H         &kp COMMA     &kp DOT     &kp ENTER &kp N5
-                                    &kp N3         &lt NUMBER TAB  &kp SPACE   &lt SYMBOLS_SWE BSPC  &lt FUNC ESC &kp N4
+                &kp Q       &kp W       &kp F         &kp P           &kp B       &kp J     &kp L         &kp U         &kp Y       &kp SE_AE
+     &kp LSHIFT &hs LGUI A  &hm LALT R  &hm LSHIFT S  &hm LCTRL T     &kp G       &kp M     &hm RCTRL N   &hm RSHIFT E  &hm RALT I  &hs RGUI O  &kp SE_AA
+     &kp LCTRL  &kp Z       &kp X       &kp C         &kp D           &kp V       &kp K     &kp H         &kp COMMA     &kp DOT     &kp SE_OO   &kp ENTER
+                                            &td0  &lt SYMBOLS_SWE TAB  &kp SPACE       &kp BSPC  &lt NUMBER DEL &lt FUNC ESC
             >;
         };
 
