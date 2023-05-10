@@ -52,7 +52,7 @@
         compatible = "zmk,conditional-layers";
         // Define SETTINGS layer as tri-state
         func_tristate {
-            if-layers = <SYMBOLS_SWE FUNC>;
+            if-layers = <SYMBOLS_SWE NUMBER>;
             then-layer = <SETTINGS>;
         };
     };
