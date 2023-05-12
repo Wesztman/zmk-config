@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Export drawio files to png files
-        uses: rlespinasse/drawio-export-action@v2.x
+        uses: rlespinasse/drawio-export-action@fix-git-missing-version
         with:
           format: png
           transparent: true
