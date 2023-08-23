@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T06:38:21.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CQCh-_woaeJ1UtxFeiGO" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T11:08:15.138Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="aOgbMVdXVfXD-EW9ya-F" version="21.6.9" type="github">
   <diagram name="brain" id="ZRLf6JSjRhF3UeJAD4nz">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rad2TlyHusP4lz5AHPMq-0" />
         <mxCell id="rad2TlyHusP4lz5AHPMq-1" parent="rad2TlyHusP4lz5AHPMq-0" />
@@ -148,7 +148,7 @@
         <mxCell id="rad2TlyHusP4lz5AHPMq-49" value="]" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="rad2TlyHusP4lz5AHPMq-1" vertex="1">
           <mxGeometry x="258" y="512" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rad2TlyHusP4lz5AHPMq-50" value="" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#ffffff;fillColor=#383E47;strokeColor=#F0F0F0;rounded=1;" parent="rad2TlyHusP4lz5AHPMq-1" vertex="1">
+        <mxCell id="rad2TlyHusP4lz5AHPMq-50" value="&lt;font color=&quot;#cccccc&quot;&gt;Pscrn&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rotation=15;fontSize=14;fontFamily=Verdana;fontStyle=1;fontColor=#ffffff;fillColor=#383E47;strokeColor=#F0F0F0;rounded=1;" parent="rad2TlyHusP4lz5AHPMq-1" vertex="1">
           <mxGeometry x="238" y="558" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rad2TlyHusP4lz5AHPMq-51" value="(" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="rad2TlyHusP4lz5AHPMq-1" vertex="1">
