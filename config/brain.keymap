@@ -143,14 +143,14 @@
                 &kp SE_DQT      &kp SE_AT       &kp SE_EXCL     &kp SE_PLUS   &kp SE_BSLH   &kp SE_LPAR   &kp SE_RPAR   &kp SE_UNDER    &kp SE_QMARK    &none
      &trans     &kp SE_SQT      &kp SE_AMPS     &kp SE_STAR     &kp SE_GRAVE  &kp SE_LBKT   &kp SE_MINUS  &kp SE_TILDE  &kp SE_EQUAL    &kp SE_PIPE     &kp SE_FSLH &none
      &trans     &kp SE_PRCNT    &kp SE_HASH     &kp SE_CARET    &kp SE_DLLR   &kp SE_RBKT   &kp SE_LBRC   &kp SE_RBRC   &kp SE_LT       &kp SE_GT       &none       &none
-                                                                   &trans  &trans  &trans   &trans        &kp DEL       &trans
+                                                                &kp PSCRN  &trans  &trans   &trans        &kp DEL       &trans
             >;
         };
 
         func_layer {
             bindings = <
             &none     &kp F1  &kp F2   &kp F3   &kp F4     &kp HOME   &kp PG_UP      &kp UP       &kp PG_DN   &kp DEL
-     &trans &kp PSCRN &kp F5  &kp F6   &kp F7   &kp F8     &kp END    &kp LEFT       &kp DOWN     &kp RIGHT   &none         &kp C_VOL_UP
+     &trans &none     &kp F5  &kp F6   &kp F7   &kp F8     &kp END    &kp LEFT       &kp DOWN     &kp RIGHT   &none         &kp C_VOL_UP
      &trans &kp CAPS  &kp F9  &kp F10  &kp F11  &kp F12    &none      &kp C_PREV     &kp C_PP     &kp C_NEXT  &kp K_MUTE    &kp C_VOL_DN
                                 &trans  &trans   &trans    &trans     &trans         &trans
             >;
