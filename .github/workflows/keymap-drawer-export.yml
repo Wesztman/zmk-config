@@ -3,7 +3,7 @@ name: Generate keymap SVG
 on: push
 
 jobs:
-  drawio-export:
+  keymap-drawer-export:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
