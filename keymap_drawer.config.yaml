@@ -1,0 +1,2 @@
+parse_config:
+  zmk_remove_keycode_prefix: ["SE_"]

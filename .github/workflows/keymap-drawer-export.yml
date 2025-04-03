@@ -15,13 +15,9 @@ jobs:
       - name: Install keymap-drawer
         run: pip install keymap-drawer
 
-      - name: Generate keymap yaml
-        run: keymap parse -z config/boards/shields/brain/brain.keymap >keymap.yaml
-
       - name: Generate svg
         run: |
-          keymap draw keymap.yaml -d config/boards/shields/brain/brain-layout.dtsi >docs/export/brain.svg
-          rm keymap.yaml
+          keymap -c keymap_drawer.config.yaml parse -z config/brain.keymap | keymap -c keymap_drawer.config.yaml draw -d config/boards/shields/brain/brain-layout.dtsi - >docs/export/brain.svg
 
       - name: Get author and committer info from HEAD commit
         uses: rlespinasse/git-commit-data-action@v1

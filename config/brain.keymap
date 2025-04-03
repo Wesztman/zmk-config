@@ -9,7 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/ext_power.h>
+#ifndef KEYMAP_DRAWER
 #include "swe_keys.h"
+#endif
 
 #define DEFAULT     0
 #define SYMBOLS_SWE 1
