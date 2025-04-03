@@ -1,6 +1,6 @@
 parse_config:
   zmk_remove_keycode_prefix: ["SE_"]
-  zmk_keycode_map:
-    AE: "Å"
-    AA: "Ä"
-    OO: "Ö"
+  # zmk_keycode_map:
+  #   AE: "Å"
+  #   AA: "Ä"
+  #   OO: "Ö"
