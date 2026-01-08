@@ -14,19 +14,19 @@
 ---
 include:
   # Ferris Sweep
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: cradio_right
 
   # Urchin https://github.com/duckyb/zmk-urchin
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: urchin_left nice_view_adapter nice_view
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: urchin_right nice_view_adapter nice_view
 
   # Brain https://github.com/Wesztman/brain
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: brain_left nice_view_adapter nice_view
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: brain_right nice_view_adapter nice_view
