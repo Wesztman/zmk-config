@@ -30,3 +30,8 @@ include:
     shield: brain_left nice_view_adapter nice_view
   - board: nice_nano
     shield: brain_right nice_view_adapter nice_view
+
+  # Reset firmware https://zmk.dev/docs/troubleshooting/connection-issues#building-a-reset-firmware
+  - board: nice_nano
+    shield: settings_reset
+
