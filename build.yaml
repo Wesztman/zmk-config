@@ -14,24 +14,24 @@
 ---
 include:
   # Ferris Sweep
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: cradio_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: cradio_right
 
   # Urchin https://github.com/duckyb/zmk-urchin
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_right nice_view_adapter nice_view
 
   # Brain https://github.com/Wesztman/brain
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: brain_left nice_view_adapter nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: brain_right nice_view_adapter nice_view
 
   # Reset firmware https://zmk.dev/docs/troubleshooting/connection-issues#building-a-reset-firmware
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
 
